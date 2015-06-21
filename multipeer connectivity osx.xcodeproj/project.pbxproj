@@ -12,6 +12,12 @@
 		AB4BACDB1A2FE9F9002F4B45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4BACDA1A2FE9F9002F4B45 /* Images.xcassets */; };
 		AB4BACDE1A2FE9F9002F4B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4BACDC1A2FE9F9002F4B45 /* Main.storyboard */; };
 		AB4BACEA1A2FE9FA002F4B45 /* multipeer_connectivity_osxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BACE91A2FE9FA002F4B45 /* multipeer_connectivity_osxTests.swift */; };
+		AB4BACF41A2FEBFB002F4B45 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4BACF31A2FEBFB002F4B45 /* MultipeerConnectivity.framework */; };
+		AB4BACF81A2FF25B002F4B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4BACF71A2FF25B002F4B45 /* Foundation.framework */; };
+		AB4BACFA1A339B9B002F4B45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4BACF91A339B9B002F4B45 /* CoreGraphics.framework */; };
+		AB4BACFC1A33E8A6002F4B45 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4BACFB1A33E8A6002F4B45 /* AppKit.framework */; };
+		AB4BAD301A346CAD002F4B45 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4BAD2F1A346CAD002F4B45 /* ApplicationServices.framework */; };
+		AB4BAD331A3FC814002F4B45 /* CGEventCreateScrollWheelEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4BAD321A3FC814002F4B45 /* CGEventCreateScrollWheelEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,13 @@
 		AB4BACE31A2FE9FA002F4B45 /* multipeer connectivity osxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multipeer connectivity osxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4BACE81A2FE9FA002F4B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB4BACE91A2FE9FA002F4B45 /* multipeer_connectivity_osxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipeer_connectivity_osxTests.swift; sourceTree = "<group>"; };
+		AB4BACF31A2FEBFB002F4B45 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		AB4BACF71A2FF25B002F4B45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB4BACF91A339B9B002F4B45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB4BACFB1A33E8A6002F4B45 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AB4BAD2F1A346CAD002F4B45 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		AB4BAD311A3FC813002F4B45 /* multipeer connectivity osx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "multipeer connectivity osx-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB4BAD321A3FC814002F4B45 /* CGEventCreateScrollWheelEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGEventCreateScrollWheelEvent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +54,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4BAD301A346CAD002F4B45 /* ApplicationServices.framework in Frameworks */,
+				AB4BACFC1A33E8A6002F4B45 /* AppKit.framework in Frameworks */,
+				AB4BACFA1A339B9B002F4B45 /* CoreGraphics.framework in Frameworks */,
+				AB4BACF81A2FF25B002F4B45 /* Foundation.framework in Frameworks */,
+				AB4BACF41A2FEBFB002F4B45 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +75,11 @@
 		AB4BACC81A2FE9F9002F4B45 = {
 			isa = PBXGroup;
 			children = (
+				AB4BAD2F1A346CAD002F4B45 /* ApplicationServices.framework */,
+				AB4BACFB1A33E8A6002F4B45 /* AppKit.framework */,
+				AB4BACF91A339B9B002F4B45 /* CoreGraphics.framework */,
+				AB4BACF71A2FF25B002F4B45 /* Foundation.framework */,
+				AB4BACF31A2FEBFB002F4B45 /* MultipeerConnectivity.framework */,
 				AB4BACD31A2FE9F9002F4B45 /* multipeer connectivity osx */,
 				AB4BACE61A2FE9FA002F4B45 /* multipeer connectivity osxTests */,
 				AB4BACD21A2FE9F9002F4B45 /* Products */,
@@ -80,6 +103,8 @@
 				AB4BACDA1A2FE9F9002F4B45 /* Images.xcassets */,
 				AB4BACDC1A2FE9F9002F4B45 /* Main.storyboard */,
 				AB4BACD41A2FE9F9002F4B45 /* Supporting Files */,
+				AB4BAD321A3FC814002F4B45 /* CGEventCreateScrollWheelEvent.m */,
+				AB4BAD311A3FC813002F4B45 /* multipeer connectivity osx-Bridging-Header.h */,
 			);
 			path = "multipeer connectivity osx";
 			sourceTree = "<group>";
@@ -208,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4BAD331A3FC814002F4B45 /* CGEventCreateScrollWheelEvent.m in Sources */,
 				AB4BACD91A2FE9F9002F4B45 /* ViewController.swift in Sources */,
 				AB4BACD71A2FE9F9002F4B45 /* AppDelegate.swift in Sources */,
 			);
@@ -324,10 +350,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "multipeer connectivity osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "multipeer connectivity osx/multipeer connectivity osx-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -335,10 +364,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "multipeer connectivity osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "multipeer connectivity osx/multipeer connectivity osx-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -397,6 +428,7 @@
 				AB4BACEF1A2FE9FA002F4B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB4BACF01A2FE9FA002F4B45 /* Build configuration list for PBXNativeTarget "multipeer connectivity osxTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +437,7 @@
 				AB4BACF21A2FE9FA002F4B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
